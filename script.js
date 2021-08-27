@@ -36,8 +36,8 @@ function bt1(height,weight){
     var resultado = document.querySelector('#result2');
     var bmi = calculateBMI(height,weight)
     resultado.innerText = `Your BMI is: ${bmi.total} ${bmi.category}`
-    n1.innerText = height;
-    n2.innerText = weight;  
+    n1.innerText = `${height}cm`;
+    n2.innerText = `${weight}KG`;  
   } 
     
 function bt2(){
